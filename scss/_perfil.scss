@@ -1,0 +1,156 @@
+/* PERFIL */ 
+
+/* Container principal */ 
+.caja-perfil {
+    border: (($medida-px)*2)-1 solid $gray;
+    border-radius: ($medida-px)*3;
+    padding: (($medida-px)*2)+5;
+    width: ($medida-px)*85;
+    margin: ($medida-px)*2 $medida-px;
+    box-sizing: border-box;
+    display: block;
+    background-color: $white;
+}
+
+/* Boton de EDITAR PERFIL */ 
+.editar-perfil {
+    background-color: $white;
+    border-width: ($medida-px)/10;
+    border-style: solid;
+    border-color: black;
+    border-radius: ($medida-px)*3;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: ($medida-px)/2 ($medida-px)/2;
+    font-size: ($medida-em)-1;
+    text-decoration: none;
+    width: ($medida-px)*13.5;
+    margin: $medida-px 0;
+    display: inline-flex;
+}
+
+/* Icono de editar perfil */ 
+.fa-user-edit {
+    margin: ($medida-px)/10 (($medida-px)*2)-1;
+    margin-right: (($medida-px)*2)+1;
+}
+ 
+/* Configuracion de grid */
+.grid-item {
+    text-align: center;
+}
+
+/* Tamano de imagen de perfil */ 
+.foto-perfil2 {
+    width: ($medida-percentage)*4;
+}
+
+/* Display del perfil */
+.perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* Display de seccion intermedia */
+.edad-compromiso-nivel {
+    display: flex;
+} 
+
+/* Imagenes de seccion intermedia */
+.informacion-imagen {
+    width: ($medida-percentage)*3;
+    padding: ($medida-px)/2;
+}
+
+/* Display de progreso */ 
+.materias1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: $medida-rem;
+}
+.materias2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: $medida-rem;
+}
+
+/* Barra de progreso */ 
+.progreso{
+    background-color: $lightgray;
+    border-width: ($medida-px)/10;
+    border-radius: ($medida-px)*4; 
+    width: ($medida-px)*20;
+    height: ($medida-px)*30x;
+    margin: $medida-px 0;
+}
+
+/* Barra de progreso interno */ 
+.dentro {
+    background-color: rgb(255, 210, 245);
+    border-style: none;
+    border-radius: ($medida-px)*4;
+    height: ($medida-px)*3;
+}
+
+/* Animaciones de cada barra de progreso interno */ 
+.dentro1 {
+    width: ($medida-px)*12;
+    animation-name: barritas1;
+    animation-duration: 3s;
+}
+
+@keyframes barritas1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: $medida-rem;
+    }
+}
+ 
+.dentro2 {
+    width: ($medida-px)*15;
+    animation-name: barritas2;
+    animation-duration: 3s;
+}
+
+@keyframes barritas2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: ($medida-px)*15;
+    }
+}
+
+.dentro3 {
+    width: ($medida-px)*18;
+    animation-name: barritas3;
+    animation-duration: 3s;
+}
+
+@keyframes barritas3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: ($medida-px)*18;
+    }
+}
+
+.dentro4 {
+    width: ($medida-px)*9;
+    animation-name: barritas4;
+    animation-duration: 3s;
+}
+
+@keyframes barritas4 {
+    from {
+        width: 0;
+    }
+    to {
+        width: ($medida-px)*9;
+    }
+}
+/* FIN DE PERFIL */

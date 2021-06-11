@@ -1,0 +1,97 @@
+/* NIVELES */
+
+/* Display de contenedores */
+.niveles-container {
+    display: flex;
+    justify-content: center;
+}
+/* Cajas de Niveles */
+.niveles {
+        border: ($medida-px)-6 solid $gray;
+        box-sizing: border-box;
+        border-radius: ($medida-px/5);
+        padding: ($medida-px)+5;
+        width: ($medida-px)*35;
+        margin: ($medida-px)*2 $medida-px;
+        background-color: $white;
+        
+}
+/* Texto de Nivel principal */ 
+.nivel-principal{
+text-align: center;
+margin: ($medida-em/2) 0;
+}
+
+/* Texto de Niveles*/ 
+.nivel {
+    text-align: left;
+}
+
+/* Imagen de  duracion */ 
+.duracion-container-niveles {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+.duracion-niveles{
+width: ($medida-percentage)+5;
+}
+
+/* Container de boton ELEGIR */
+.elegir-container-niveles{
+    width: $medida-percentage;
+}
+/* Container de Imagen principal */
+.imagen-nivel-container {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+/* Imagen del nivel */ 
+.imagen-nivel {
+    width: ($medida-percentage)*3;
+  }
+
+    /* Boton de ELEGIR nivel */ 
+    .elegir {
+        font-family: 'Quicksand', sans-serif;
+        background-color: $white;
+        border-width: ($medida-px/5);
+        border-style: solid;
+        border-color: $purple;
+        border-radius: ($medida-px)*3;
+        text-align: center;
+        cursor: pointer;
+        padding: ($medida-px)-2 ($medida-px/2);
+        margin: $medida-px;
+        text-decoration: none;
+        width: ($medida-px)*15;
+        text-align: center;
+        transition: all 2s;
+        color: black;
+        font-weight: 600;
+        color: $purple;
+    }
+    
+    .elegir:active {
+        color: $white;
+        background-color: $purple;
+        border-style: double;
+        border-width: ($medida-px/5);
+        border-color: $white;
+    }
+    
+    .elegir:hover {
+        color: $white;
+        border-color:  $purple;
+        border-width: ($medida-px/5);
+        background-color: $purple;
+        transform: scale(1.2);
+    }
+    
+    
+    
+    
+/* FIN DE NIVELES */ 

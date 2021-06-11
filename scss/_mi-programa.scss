@@ -1,0 +1,64 @@
+/* MI PROGRAMA */
+
+/* Container */ 
+.miprograma-container {
+    display: flex;
+    justify-content: center;
+}
+.miprograma-container1 { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+/* Container principal */ 
+.nivel-gotita-container { 
+    height: ($medida-em)*8;
+    border: ($medida-px)-6 solid $gray;
+    box-sizing: border-box;
+    border-radius: ($medida-em: 2em)-0.5;
+    padding: ($medida-px)*2;
+    width: (($medida-percentage)*3)+5;
+    margin: ($medida-px)*3 $medida-px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+}
+
+/* Imagen de nivel gotita */ 
+.gota { 
+    width: $medida-percentage;
+    position: absolute;
+}
+
+/* Containers secundarios */ 
+.curso-container {
+    height: ($medida-em)*9;
+    border: ($medida-px)-6 solid $gray;
+    box-sizing: border-box;
+    border-radius: ($medida-em: 2em)-0.5;
+    padding: ($medida-px)+5;
+    width: (($medida-percentage)*3)+5;
+    margin: $medida-px $medida-px;
+    background-color: $white;
+}
+
+/* Texto de los container */ 
+.programa {
+    padding: (($medida-percentage)/5);
+    text-align: left;
+}
+
+/* Contenedor de imagen de duracion */ 
+.duracion-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+/* Imagen de duracion */ 
+.duracion {
+    width: ($medida-percentage)+5;
+    
+}
+
+/* FIN DE MI PROGRAMA */ 

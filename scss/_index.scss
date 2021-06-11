@@ -1,0 +1,220 @@
+/* INDEX */
+
+/* Iconos flat */ 
+.flat {
+  width: ($medida-percentage)-0.5;
+
+}
+/* Texto del menu lateral */ 
+.texto {
+    position: relative;
+    top: ($medida-em)-0.8;
+    text-decoration: none;
+    color: black;
+}
+
+/* Containers */ 
+.home-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Cada container */ 
+.home {
+    border: ($medida-px)-6 solid $gray;
+    box-sizing: border-box;
+    border-radius: $medida-em;
+    padding:($medida-px)+5;
+    width: ($medida-em)/2;
+    margin: ($medida-em)/2 ($medida-em)-0.5;
+    background-color: $white;
+}
+
+/* Imagenes de cads container */
+.home-images { 
+  background-color: transparent;
+  width: ($medida-percentage)+2;
+}
+
+/* Boton de empezar EN VIVO */
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .button {
+    outline:none;
+    height: ($medida-px)*4;
+    text-align: center;
+    width: ($medida-px)*13;
+    border-radius: ($medida-px)*4;
+    background: $white;
+    border: ($medida-px)/5 solid $lightblue;
+    color: $lightblue2;
+    letter-spacing:($medida-px)/10;
+    text-shadow:0;
+    font-size: ($medida-px)+2;
+  font-weight:bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: $white;
+  }
+    .button:hover {
+      color: $white;
+      background: $lightblue;
+    }
+    .button:active {
+      letter-spacing: ($medida-px)/5;
+      letter-spacing:($medida-px)/5 ;
+    }
+    .button:after {
+      content:"HOY 16:00";
+    }
+  .onclic {
+    width: ($medida-px)*4;
+    border-color:$gray;
+    border-width:($medida-px)-7;
+    font-size:0;
+    border-left-color: $lightblue;
+    animation: rotating 2s 0.25s linear infinite;
+  }
+    .onclic:after {
+      content:"";
+    }
+   .onclic:hover {
+      color: $lightblue;
+      background: $white;
+  }
+  .validate {
+    font-size:($medida-px)+3;
+    color: $white;
+    background: $lightblue;
+  
+  }
+  .validate:after {
+  font-family:'FontAwesome';
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Iconos del Programa */
+  .fa-ellipsis-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+  .fa-ellipsis-v {
+    font-size: ($medida-em)-0.5;
+
+  }
+
+  /* Iconos de Materiales */
+  .fa-arrow-down-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+  .fa-arrow-down {
+    font-size: ($medida-em)-0.5;
+
+  }
+   /* Iconos del Tareas */
+   .a-chevron-right-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+  .a-chevron-right {
+    font-size: ($medida-em)-0.2;
+
+  }
+
+  /* Boton de empezar AGREGAR */
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .agregar{
+    outline:none;
+    height: ($medida-px)*4;
+    text-align: center;
+    width: ($medida-px)*13;
+    border-radius:($medida-px)*4;
+    background: $white;
+    border: ($medida-px)/5 solid $lightblue;
+    color: $lightblue2;
+    letter-spacing:($medida-px)/10;
+    text-shadow:0;
+    font-size:($medida-px)+2;
+  font-weight:bold;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+    .agregar:hover {
+      color: $white;
+      background: $lightblue;
+    }
+    .agregar:active {
+      letter-spacing: ($medida-px)/5;
+      letter-spacing:($medida-px)/5;
+
+    }
+    .agregar:after {
+        content:"AGREGAR";
+      }
+
+    
+  .onclic {
+    width: ($medida-px)*4;
+    border-color:$gray;
+    border-width:($medida-px)-7;
+    font-size:0;
+    border-left-color: $lightblue;
+    animation: rotating 2s 0.25s linear infinite;
+  }
+    .onclic:after {
+      content:"";
+    }
+   .onclic:hover {
+      color: $lightblue;
+      background: $white;
+  }
+  .validate {
+    font-size: ($medida-px)+3;
+    color: $white;
+    background:$lightblue;
+  
+  }
+  .validate:after {
+  font-family:'FontAwesome';
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+/* Espacio entre texto del container */
+.empty-box-spacing {
+    height: $medida-em;
+    background-color: transparent;
+    
+}
+
+/* Texto de los Containers */ 
+.clase {
+    margin: ($medida-em)-0.9;
+    background-color: transparent;
+}
+
+/* FIN DEL INDEX */ 
