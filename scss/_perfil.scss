@@ -1,5 +1,8 @@
 /* PERFIL */ 
 
+/* Import*/
+@import 'variables';
+
 /* Container principal */ 
 .caja-perfil {
     border: (($medida-px)*2)-1 solid $gray;
