@@ -32,6 +32,11 @@
     margin: $medida-px 0;
     display: inline-flex;
 }
+/* Icono de editar perfil */ 
+.fa-user-edit {
+    margin: ($medida-px)/10 (($medida-px)*2)-1;
+    margin-right: (($medida-px)*2)+1;
+}
 
 /* Icono de editar perfil */ 
 .fa-user-edit {
